@@ -4,7 +4,9 @@ include(CMakeFindDependencyMacro)
 list(APPEND CMAKE_MODULE_PATH "@CMAKE_INSTALL_PREFIX@/share/cmake/Modules")
 
 set(LIBSBML_LIBRARY_NAME @LIBSBML_LIBRARY_NAME@)
-find_dependency(LIBSBML)
+if(FIND_LIBSBML)
+  find_dependency(LIBSBML)
+endif()
 
 foreach (library @EXTRA_LIBS@)
 

@@ -1,7 +1,0 @@
-[submodule "libnuml/submodules/libSBML-dependencies"]
-	path = libnuml/submodules/libSBML-dependencies
-	url = https://github.com/sbmlteam/libSBML-dependencies.git
-[submodule "libnuml/submodules/libSBML"]
-	path = libnuml/submodules/libSBML
-	url = https://github.com/sbmlteam/libsbml.git
-	branch = development
